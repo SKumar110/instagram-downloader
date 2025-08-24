@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram Video Downloader</title>
+  <meta name="description" content="Download Instagram Reels and Posts easily." />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Instagram Video Downloader</h1>
+    <p>Paste Instagram URL to download Reels or Posts.</p>
+  </header>
+  <main>
+    <form id="download-form">
+      <input id="ig-url" type="url" placeholder="Enter Instagram URL" required />
+      <button type="submit" id="submit-btn">Download</button>
+    </form>
+    <section id="result" class="hidden">
+      <h2>Result</h2>
+      <div id="preview"></div>
+      <div id="downloads"></div>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Instagram Downloader</footer>
+  <script src="/app.js"></script>
+</body>
+</html>
